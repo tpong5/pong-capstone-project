@@ -1,0 +1,626 @@
+---
+title: "9041 Capstone"
+author: "Timothy Pong"
+date: "November 30, 2026"
+format: 
+    html:
+      toc: true
+      code-fold: true
+      code-summary: "Show code"
+      df-print: paged
+execute:
+    echo: false
+    warning: false
+---
+
+# Introduction
+Mindfulness meditation (MM) is a form of meditation that has been widely incorporated into psychotherapy practice in recent decades (Tang et al., 2015) for a variety of affect-related mental health concerns (Eberth & Sedlmeier, 2012; Wu et al., 2019). Clinical trials have found MM to induce comparable effects to antidepressants and pre-established evidence-based psychotherapy modalities for depression and anxiety (e.g., cognitive behavioural therapy; Katterman et al., 2014, Goldberg et al., 2018). Although there are different forms of MM at the core, the practice involves intentional awareness and nonjudgmental processing of present thoughts. Evidently, this proves as a difficult task for those with psychological disorders associated with greater negative rumination, typically concerning oneself such as in major depressive disorder. As such, the aim of MM in psychotherapy for such disorders is to build up one’s capacity to be aware of ongoing thought patterns and emotions, and to processes these experiences in a healthy manner. This is not to say that MM is a first-line treatment, rather, it is often used as an alternative or augmentative intervention for those who respond poorly to first-line interventions.
+
+Beyond subjective outcomes, effects of MM can be linked to measurable neurological activity such as with the alpha band of electroencephalogram (EEG) activity (Lomas et al., 2015), which has been implicated in processes relating to self-referential thinking, executive control, and rumination during resting state (Bao & Frewen, 2025; Başar & Güntekin, 2012; Palva & Palva, 2007; Tang et al., 2015). More specifically, heightened alpha power and frontoparietal alpha coherence (Do et al., 2023; Marzetti et al., 2014; Yordanova et al., 2020) is associated with a state of mindfulness in most traditional forms of MM (Dunn et al., 1999; Hinterberger et al., 2014); though more recent studies involving breath-focused MM suggest that the inverse (i.e., reduced alpha power) is indicative of a mindfulness (Alexander et al., 2019; Duda et al., 2024; Duda et al., 2025). The authors speculate that this dichotomy may be a result of differences in MM format, such that networks engaged in passive-viewing MM are different from breath-focused MM despite similar subjective outcomes. This is notable since many clinically used implementations of MM involve breath attention and pacing to some effect. Nevertheless, current understanding of the directionality of alpha in MM remains inconclusive, though the majority of literature reports heightened alpha power to be indicative of successful MM, and thereby less negative rumination and greater executive control.
+
+Despite its widespread application, the efficacy and experience of MM remains a concern particularly in cases of posttraumatic stress where MM can exacerbate posttraumatic symptoms and induce dissociative experiences (Boyd et al., 2018; Zhu et al., 2019). As such, some have proposed the use of neuromodulation like transcranial alternating current stimulation (tACS) to augment the effects of MM. tACS is a form of non-invasive electrical brain stimulation that delivers an oscillating current across a region through two or more electrodes. This oscillating current can be set to target a specific frequency, thereby entraining and upregulating spectral power and phase coherence of said frequency across stimulated brain networks (De Koninck et al., 2023; Helfrich et al., 2014; Orendáčová & Kvašňák, 2021; Vossen et al., 2015). Effects, especially those on a network level, have been shown to depend on endogenous oscillations, such that some have noted that modulating oscillations requires targeted stimulation of core hubs of specific frequencies, and to have participants in a state that engages said frequency and networks (De Koninck et al., 2023; Bao & Frewen, 2022; Ruhnau et al., 2016). In the case of MM, one may argue that the most optimal stimulation site is the midline parietal cortex (MPC) to target the parieto-occipital hub of the default mode network. Stimulation of the MPC while practicing MM may induce downstream effects that can strengthen network connectivity, thereby leading to better meditative experiences.
+
+Thus far, no studies have yet evaluated the effects of alpha-targeted tACS (alpha-tACS) on MM. Apart from the subjective experiences of MM, EEG outcomes of alpha-tACS augmented MM is of interest in cases involving paced breathing, where alpha power has been observed to decrease following meditation. Here, the nature of paced breathing versus passive viewing meditation has not yet been investigated, nor whether this difference exists for other EEG outcomes of MM such as coherence. The current study endeavors to explore both the effects of paced-breathing MM on alpha power and coherence, as well as evaluate whether alpha-tACS can augment or induce alpha band effects. We predict that alpha power will decrease following MM for those who receive sham stimulation, but either stay the same or increase for after real stimulation. Furthermore, as expect that MM will raise frontoparietal alpha coherence, which may be further heightened with the use of alpha-tACS. 
+
+# Methods
+Thirty-six stimulation naïve participants (24 female, 18 – 25 years of age) were recruited from the undergraduate psychology research pool at Western University for a double-blinded, single-session of paced-breathing MM with simultaneous alpha-tACS. For participant safety, the study excluded those who had recent head trauma, or history of seizures or neurological disorders (Antal et al., 2017).
+
+Upon consent, participants completed a series of questionnaires, followed by five minutes of meditation instruction, and 15 minutes of simultaneous paced-breathing MM with alpha-tACS. The meditation involved participants following a six-breaths-per-minute breathing pacer shown on a monitor while paying conscious attention to their own breathing and contents of their awareness. To encourage participants to stay on task, we followed the Meditation Breath Attention Score procedure (Frewen & Bao, 2022), used in previous studies, where a meditation bowl was rung every three minutes, at which participants were prompted to raise a finger to indicate whether they were paying conscious attention to their breathing and thoughts at the time of the ringing.
+
+## EEG
+Resting-state EEG recordings were conducted using the Muse-2 EEG headset (InteraXon, Ontario, Canada) immediately before and after the meditation. The EEG is a commercial-grade, and consists of four dry electrodes over left and right frontal (AF7, AF8) and tempoparietal (TP9, and TP10) sites, as well as a wet auxiliary electrode which could be attached to any desired location. In our study, this auxiliary electrode was placed over PZ (midline parietal cortex) using standard electroconductive paste (Ten20, D.O. Weaver, Aurora, CO, USA). Although the device lacks spatial resolution as it only consists of 5 electrodes, it has nonetheless been used successfully with strong validity in studies thus far (Farooqui et al., in press).
+
+## Alpha-tACS
+Alpha-tACS was delivered throughout the entire meditation instruction and practice period (i.e., total of 20 minutes) using the DC-Stimulator Plus (NeuroConn GmbH, Ilmenau, Germany). Stimulation was set to a 2 mA intensity following standards for participant safety (Antal et al., 2017), and was set to target participants’ individual alpha frequency based on their baseline EEG recording to improve the likelihood of alpha modulation (De Koninck et al., 2023). The montage consisted of a two electrode setup at CPz (+2 mA) and POz (-2 mA) targeting the midline parietal cortex. Researchers were blinded to whether a participant received real or sham stimulation through the use of blinding codes for the stimulator. Although participants were naïve to stimulation, they were nonetheless asked about whether they felt as though they received real or sham stimulation at the end of the study. Responses indicated a roughly equal likelihood between stimulation groups of participants responding that they felt as though they received real stimulation, suggesting that blinding was successful. 
+
+## Data Preprocessing and Statistical Analysis
+  EEG preprocessing was conducted using the EEGLAB toolbox (Delorme & Makeig, 2004) in MATLAB, and excluded the tempoparietal electrodes (i.e., TP9 and TP10) due to concerns over data quality. Preprocessing included a bandpass filter for the 5-55 Hz range and artifact subspace reconstruction to reject bad channels and filter out artifacts. Spectral analysis was then conducted for alpha spectral power, defined as the average power across frequencies from 8 to 12 Hz. Phase coherence analysis was also conducted between the three electrodes to assess alpha coherence between the left and right frontal electrodes, and the midline parietal electrode. Values marked as two or more standard deviations above or below the mean were removed from the dataset prior to analysis. It should be noted that interpretation of AF8 values should be approached with caution due to concerns over data quality that were visually observed during study sessions and recordings. 
+	Generalized linear mixed models were constructed for both alpha power and coherence to assess for group and channel differences before and after meditation and stimulation. Models excluded values where pre- and post-meditation values were not both present for alpha power or coherence in their respective models. Models took an ANCOVA approach, where the model outcome was post-meditation alpha power or coherence, with pre-meditation values as a random effects covariate. Model families and links were decided based on model adherence to assumptions and theoretical fit for the data. The candidate alpha power model used a Student’s t-distribution instead of a gaussian distribution for general robustness and due to heavy tails in the spectral power distribution. Several other families and links were considered, though most others had glaring issues with diagnostic plots. It should be noted that collinearity is high for spectral power between channels. This is both expected and an accepted shortcoming of the model considering that EEG data is likely globally correlated, and we would like to nonetheless, examine whether there are any differences in spectral power between the bilateral frontal and midline parietal sites. In comparison, the model for alpha coherence was decidedly fit to a beta-distribution due to the nature of coherence as a percentage synchronization of a specific frequency between two regions. Here, we conducted chi-squared tests for nested models to determine the candidate model for alpha coherence. All diagnostic tests and plots for candidate models are shown below, and were reviewed for adherence to assumptions. 
+
+# Results
+<!--Libraries + Data Loading and Cleaning-->
+
+```{r, load libraries}
+#| output: FALSE
+library(readxl)
+library(dplyr)
+library(tidyr)
+library(glmmTMB)
+library(DHARMa)
+library(ggplot2)
+library(car)
+library(gt)
+library(broom.mixed)
+library(performance)
+library(stringr)
+library(emmeans)
+library(tidysdm)
+library(rstatix)
+```
+
+```{r, load data}
+#| output: FALSE
+data_spec_raw <- read_xlsx("./data/MASTER Spectra LONG.xlsx")
+data_coh_raw <- read_xlsx("./data/MASTER Coherence LONG.xlsx")
+```
+
+```{r, data cleaning}
+#| output: FALSE
+# Data should be widened to have pre and post columns for each EEG spectra band. 
+# Generally, most functions will require wide data, but occasionally, we will elongate data for some functions.
+# We will also trim the datasets for only the columns needed for this analysis.
+# Widening coherence data
+data_coh <- data_coh_raw |>
+  mutate(Time = tolower(Time)) |>
+  pivot_wider(
+    names_from = Time,
+    values_from = c(theta__itc, alpha__itc, lowAlpha__itc, highAlpha__itc, beta__itc, lowGamma__itc, full__itc),
+    names_glue = "{Time}_{.value}") |>
+  select(id, Group, Comparison, pre_alpha__itc, post_alpha__itc)
+# Widening spectral data
+data_spec <- data_spec_raw |>
+  mutate(Time = tolower(Time)) |>
+  pivot_wider(
+    names_from = Time, values_from = c(Cleanliness, theta, alpha, lowAlpha, highAlpha, beta, lowGamma, full),
+    names_glue = "{Time}_{.value}") |>
+  select(id, Group, channel, pre_alpha, post_alpha)
+```
+
+## Data Descriptives
+### Alpha Spectral Power Descriptives
+```{r, alpha spectral power descriptive table}
+descriptives_spec <- data_spec |>
+  group_by(channel, Group) |>
+  summarise(
+    across(
+      c(pre_alpha, post_alpha),
+      list(mean = \(x) mean(x, na.rm = TRUE), 
+           sd = \(x) sd(x, na.rm = TRUE), 
+           min = \(x) min(x, na.rm = TRUE), 
+           max = \(x) max(x, na.rm = TRUE)),
+      .names = "{.col}_{.fn}"
+    )
+  ) |>
+  rename_with(~ str_remove(., "alpha_"), .cols = everything()) |>
+  gt() |>
+  fmt_number(columns = where(is.numeric), decimals = 2) |>
+  tab_spanner_delim("_", everything(), split = "first")
+descriptives_spec
+```
+
+### Alpha Coherence Descriptives
+```{r, alpha phase coherence descriptive table}
+descriptives_coh <- data_coh |>
+  group_by(Comparison, Group) |>
+  summarise(
+    across(
+      c(pre_alpha__itc, post_alpha__itc),
+      list(mean = \(x) mean(x, na.rm = TRUE), 
+           sd = \(x) sd(x, na.rm = TRUE), 
+           min = \(x) min(x, na.rm = TRUE), 
+           max = \(x) max(x, na.rm = TRUE)),
+      .names = "{.col}_{.fn}"
+    )
+  ) |>
+  gt() |>
+  fmt_number(columns = where(is.numeric), decimals = 2) |>
+  tab_spanner_delim("_", everything(), split = "first") |>
+  rm_spanners(levels = c(1, 2))
+descriptives_coh
+```
+
+## Alpha Spectral Power Modeling
+### Student's T Distribution Model
+```{r, building and analyzing a students t distribution glm model for alpha spectral power}
+# Build model
+mod_spec_full <- data_spec |>
+  # Remove ONE extreme outlier in pre_alpha
+  filter(pre_alpha < 20) |>
+  glmmTMB(
+    formula = post_alpha ~ pre_alpha + Group * channel + (1 | id),
+    family = t_family(link = "identity"),
+    control=glmmTMBControl(optimizer=optim, optArgs=list(method="BFGS"))
+  )
+
+# Comparing effects
+aov_spec_tab <- Anova(mod_spec_full) |>
+  rename(
+    "X^2" = "Chisq",
+    "p" = "Pr(>Chisq)"
+  ) |>
+  data_frame() |>
+  mutate(Term = c("pre_alpha", "Group", "channel", "Group:channel")) |>
+  relocate(Term, .before = "X^2") |>
+  mutate(p = case_when(
+    p < 0.001 ~ "< .001",
+    .default = as.character(round(p, digits = 3))
+  )) |>
+  mutate(`X^2` = round(`X^2`, digits = 3)
+  )
+aov_spec_tab
+```
+The generalized linear mixed model with a Student's T distribution returned a significant interaction effect between group and channel (χ² = `r aov_spec_tab[["X^2"]][4]`, p = `r aov_spec_tab$p[4]`), and an expected significant effect of pre-stimulation alpha power as a covariate (χ² = `r aov_spec_tab[["X^2"]][1]`, p = `r aov_spec_tab$p[1]`). 
+
+### Examining Model Assumptions
+#### Linearity and Residuals
+```{r, alpha spectral power dharma simulated residuals}
+#| echo: false
+#| fig-height: 5.6
+set.seed(99999)
+plot(simulateResiduals(mod_spec_full, n = 10000, plot = FALSE))
+```
+Slight platykurtosis as seen in the Q-Q plot is expected due to removal of outliers (i.e., values +/- 2 standard deviations from the mean before preprocessing). The significant KS test is not excessive and can be interpreted as a result of the platykurtosis. In combination with the residuals plot, the model can be considered a decent fit. 
+
+#### Collinearity
+```{r, alpha spectral power vif}
+#| echo: false
+check_collinearity(mod_spec_full) |>
+  data_frame() |>
+  mutate(across(where(is.numeric), round, digits = 3))
+plot(check_collinearity(mod_spec_full))
+```
+Collinearity tests and plots suggest high collinearity between channels, which is expected and something we accept in the model since we would to assess channel differences regardless of collinearity. Rather than a random effect, channels were included as a fixed effect since we expected different brain regions to exhibit unique EEG activity regardless of collinearity. 
+
+#### Influence
+```{r, alpha spectral power outliers}
+testOutliers(mod_spec_full)
+```
+Outliers were not indicated to have a significant effect on the model.
+
+### Selected Model Report: Stimulation Group Estimated Means
+```{r, create selected model table for alpha spectral power}
+# Compute estimated marginal means
+emms_group <- emmeans(mod_spec_full, ~ Group | channel)
+
+# Create temporary object to store emms summary
+temp1 <- summary(emms_group) |>
+  # Round all numeric to 3 digits
+  mutate(across(where(is.numeric), round, 3)) |>
+  select(!df)
+
+# Create temporary object to store pairwise calculations for emms
+temp2 <- summary(pairs(emms_group)) |>
+  select(!c("df")) |>
+  # Round all numeric to 3 digits
+  mutate(across(where(is.numeric), round, 3)) |>
+  # Very crude rep into every other row being NA to allow for proper left joining to emms summary
+  slice(rep(1:n(), each = 2)) |> 
+  mutate(across(-contrast, ~ replace(., row_number() %% 2 == 0, NA))) |>
+  mutate(Group = temp1$Group) |>
+  select(!c("contrast", "SE", "Group", "channel"))
+
+# Combine emms summary and pairwise tables into final display table
+gt_spec_group <- 
+  bind_cols(temp1, temp2, .name_repair = "minimal") |>
+  # Rename columns
+  rename(
+    `Estimate` = "emmean",
+    z = "z.ratio",
+    p = "p.value"
+  ) |>
+  # Create new column for combined confidence interval
+  mutate(`95% CI` = paste0("[", asymp.LCL, ", ", asymp.UCL, "]")) |>
+  relocate(`95% CI`, .after = SE) |>
+  select(!c(asymp.LCL, asymp.UCL)) |>
+  gt() |>
+  # Format p-value properly
+  fmt(
+    columns = p,
+    fns = function(x) {
+      ifelse(
+        is.na(x),
+        "—",
+        ifelse(x < .001, "< .001", sprintf("%.3f", x))
+      )
+    }
+  ) |>
+    sub_missing(
+    columns = everything(),
+    missing_text = ""
+  )
+# Cleanup
+rm(emms_group, temp1, temp2)
+# Display
+gt_spec_group
+```
+Despite a significant interaction, no significant differences were found for alpha power at each channel between those who received real and sham stimulation. On average, the real stimulation group had greater alpha power post-meditation, though this difference was not significant in any channel. 
+
+### Alpha Power by Stimulation Group
+```{r, graph alpha spectral power}
+frame <- mod_spec_full$frame |>
+  pivot_longer(
+    cols = ends_with("alpha"),
+    names_to = c("time", ".value"),
+    names_sep = "_"
+  ) |>
+  # Reorder factors for graph
+  mutate(time = factor(time, levels = c("pre", "post"))) |>
+  mutate(channel = factor(channel, levels = c("AF7", "AF8", "PZ")))
+
+# create grid plot
+plot_coh <- frame |>
+  ggplot(aes(x = Group, y = alpha, fill = time)) +
+  geom_split_violin(alpha = .3) +
+  geom_boxplot(width = .2, alpha = .7, outlier.shape = NA) +
+  # grid is separated by channels
+  facet_grid(cols = vars(channel)) +
+  labs(
+    x = "Group",
+    y = "Spectral Power (log(μV^2/Hz)",
+    colour = "Time",
+    title = "Alpha Spectral Power"
+  ) +
+  theme_bw()
+plot_coh
+```
+
+## Alpha Coherence Modeling
+### Model Comparison
+Here, we created and compared multiple models including an intercept-only model, models with only stimulation group or coherence electrode comparison pairs, and models with both predictors combined with and without interactions coded. 
+```{r, create and compare models}
+#| output: FALSE
+# Base model with only post predicted by pre covariate (random effect). This acts as the intercept model.
+mod_coh_int <- data_coh |>
+  glmmTMB(
+    formula = post_alpha__itc ~ pre_alpha__itc + (1 | id),
+    family = beta_family(link = "logit")
+  )
+# Nested model with added predictor for which electrode coherence comparison was conducted
+mod_coh_comparison <- data_coh |>
+  glmmTMB(
+    formula = post_alpha__itc ~ pre_alpha__itc + Comparison + (1 | id),
+    family = beta_family(link = "logit")
+  )
+# Nested model with added predictor for stimulation group
+mod_coh_group <- data_coh |>
+  glmmTMB(
+    formula = post_alpha__itc ~ pre_alpha__itc + Group + (1 | id),
+    family = beta_family(link = "logit")
+  )
+# Nested model with both electrode comparison and stimulation group - no interactions coded
+mod_coh_main <- data_coh |>
+  glmmTMB(
+    formula = post_alpha__itc ~ pre_alpha__itc + Group + Comparison + (1 | id),
+    family = beta_family(link = "logit")
+  )
+# Nested model with interactions coded
+mod_coh_full <- data_coh |>
+  glmmTMB(
+    formula = post_alpha__itc ~ pre_alpha__itc + Group * Comparison + (1 | id),
+    family = beta_family(link = "logit")
+  )
+
+# Compare models using likelihood ratio test
+aov_coh_alpha <- anova(mod_coh_int, mod_coh_comparison, mod_coh_group, mod_coh_main, mod_coh_full) |>
+  select(Chisq, `Chi Df`, `Pr(>Chisq)`) |>
+  rename(
+    Nested.df = `Chi Df`,
+    Nested.Chisq.stat = Chisq,
+    Nested.p.value = `Pr(>Chisq)`)
+# Comparisons show the full interaction-included model to be the only significant model in the likelihood ratio tests. However, AIC reductions from the intercept model to the full interaction model are small. This is likely due to the source of the effect being from likely one comparison out of the three.
+```
+
+```{r, create model comparison table}
+compare_coh_alpha <- cbind(
+  Model = c("Null", "Group", "Comparison", "Group + Comparison", "Group * Comparison"),
+  rbind(
+    broom.mixed::glance(mod_coh_int),
+    broom.mixed::glance(mod_coh_group),
+    broom.mixed::glance(mod_coh_comparison),
+    broom.mixed::glance(mod_coh_main),
+    broom.mixed::glance(mod_coh_full)
+  ),
+  aov_coh_alpha
+) |>
+  select(
+    Model,
+    AIC,
+    BIC,
+    logLik,
+    df.residual,
+    Nested.df,
+    Nested.Chisq.stat,
+    Nested.p.value
+  ) |>
+  gt() |>
+  cols_label(
+    Model = "Model",
+    AIC = "AIC",
+    BIC = "BIC",
+    logLik = "Log-likelihood",
+    df.residual = "Residual.df",
+    Nested.df = "Nested df",
+    Nested.Chisq.stat = "Nested χ²",
+    Nested.p.value = "Nested p"
+  ) |>
+  fmt_number(
+    columns = c(
+      AIC,
+      BIC,
+      logLik,
+      Nested.Chisq.stat
+    ),
+    decimals = 3
+  ) |>
+  # Round p values
+  fmt(
+    columns = Nested.p.value,
+    fns = function(x) {
+      ifelse(
+        is.na(x),
+        "—",
+        ifelse(x < .001, "< .001", sprintf("%.3f", x))
+      )
+    }
+  ) |>
+  # Substitute missing text
+  sub_missing(
+    columns = c(Nested.df, Nested.Chisq.stat),
+    missing_text = "—"
+  )
+compare_coh_alpha
+```
+Chi-squared tests for the nested models showed that only the interaction model (i.e., Group * Comparison) was significant and had a lower AIC compared to the intercept model (AIC: `r round(compare_coh_alpha[["_data"]]$AIC[5], digits = 3)`, χ² = `r round(compare_coh_alpha[["_data"]]$Nested.Chisq.stat[5], digits = 3)`, p = `r round(compare_coh_alpha[["_data"]]$Nested.p.value[5], digits = 3)`)
+
+### Examining Model Assumptions
+#### Response does not hit bounds
+```{r, check response bounds}
+# Test if any responses hit beta regression boundaries (i.e., must stay between 0 and 1 but cannot be 0 or 1)
+if (any(range(data_coh_raw$alpha__itc) <= 0) || any(range(data_coh_raw$alpha__itc) >= 1)) {
+  print("Assumption IS Violated: There are responses beyond the bounds of 0 < response < 1")
+} else {
+  print("Assumption NOT Violated: There are NO responses beyond the bounds of 0 < reponse < 1")
+}
+```
+
+#### Linearity and Residuals
+```{r, alpha phase coherence dharma simulated residuals}
+#| echo: false
+#| fig-height: 5.6
+set.seed(99999)
+plot(simulateResiduals(mod_coh_full, n = 10000, plot = FALSE))
+```
+Residual and linearity plots and tests show good model fit with slight, but acceptable misspecification based on the residual plot. 
+
+#### Collinearity
+```{r, alpha phase coherence vif}
+#| echo: false
+check_collinearity(mod_coh_full) |>
+  data_frame() |>
+  mutate(across(where(is.numeric), round, digits = 3))
+plot(check_collinearity(mod_coh_full))
+```
+Good collinearity between electrode comparisons and groups. Moderate but acceptable collinearity between stimulation group and coherence comparisons considering that predictor-specific collinearity is low.
+
+#### Influence
+```{r, alpha phase coherence outliers}
+testOutliers(mod_coh_full)
+```
+Outliers were not indicated to have a significant effect on the model.
+
+### Selected Model Report
+
+```{r, coh create selected model table}
+# Compute estimated marginal means
+emms <- emmeans(mod_coh_full, ~ Group | Comparison, type = "response")
+
+# Create temporary object to store emms summary
+temp1 <- summary(emms) |>
+  # Round all numeric to 3 digits
+  mutate(across(where(is.numeric), round, 3)) |>
+  select(!df)
+
+# Create temporary object to store pairwise calculations for emms
+temp2 <- summary(pairs(emms)) |>
+  select(!c(contrast, df, null)) |>
+  # Round all numeric to 3 digits
+  mutate(across(where(is.numeric), round, 3)) |>
+  # Very crude rep into every other row being NA to allow for proper left joining to emms summary
+  slice(rep(1:n(), each = 2)) |> 
+  mutate(across(-Comparison, ~ replace(., row_number() %% 2 == 0, NA))) |>
+  mutate(Group = temp1$Group)
+
+# Combine emms summary and pairwise tables into final display table
+gt_coh <- 
+  left_join(temp1, temp2, by = c("Group", "Comparison"), keep = FALSE) |>
+  # Rename columns
+  rename(
+    `Estimate` = "response",
+    SE = "SE.x",
+    `Odds Ratio` = "odds.ratio",
+    z = "z.ratio",
+    p = "p.value"
+  ) |>
+  # Create new column for combined confidence interval
+  mutate(`95% CI` = paste0("[", asymp.LCL, ", ", asymp.UCL, "]")) |>
+  relocate(`95% CI`, .after = SE) |>
+  select(!c(SE.y, asymp.LCL, asymp.UCL)) |>
+  gt() |>
+  # Create separate row groupings for each comparison for readibility
+  tab_row_group(
+    label = "AF7-PZ",
+    rows = Comparison == "AF7-PZ"
+  ) |>
+  tab_row_group(
+    label = "AF8-PZ",
+    rows = Comparison == "AF8-PZ"
+  ) |>
+  tab_row_group(
+    label = "AF7-AF8",
+    rows = Comparison == "AF7-AF8"
+  ) |>
+  cols_hide(Comparison) |>
+  sub_missing(
+    columns = everything(),
+    missing_text = ""
+  ) |>
+  row_group_order(groups = c("AF7-PZ", "AF8-PZ", "AF7-AF8")) |>
+  # Format p-value properly
+  fmt(
+    columns = p,
+    fns = function(x) {
+      ifelse(
+        is.na(x),
+        "—",
+        ifelse(x < .001, "< .001", sprintf("%.3f", x))
+      )
+    }
+  )
+# Cleanup
+rm(emms, temp1, temp2)
+# Display
+gt_coh
+```
+
+Left prefrontal to midline parietal (AF7-PZ) alpha coherence was significantly greater post-stimulation in the real, versus sham stimulation groups. This finding was not found for alpha coherence between bilateral frontal sites, nor between right prefrontal and midline parietal regions. Rather, both coherence pairs had lower alpha coherence post-stimulation in the real sitmulation group. 
+
+### Alpha Coherence by Stimulation Group
+```{r, graph alpha coherence}
+frame <- mod_coh_full$frame |>
+  pivot_longer(
+    cols = ends_with("alpha__itc"),
+    names_to = c("time", ".value"),
+    names_sep = "_"
+  ) |>
+  # Reorder factors for graph
+  mutate(time = factor(time, levels = c("pre", "post"))) |>
+  mutate(Comparison = factor(Comparison, levels = c("AF7-PZ", "AF8-PZ", "AF7-AF8")))
+
+plot_coh <- frame |>
+  ggplot(aes(x = Group, y = alpha, fill = time)) +
+  geom_split_violin(alpha = .3) +
+  geom_boxplot(width = .2, alpha = .7, outlier.shape = NA) +
+  facet_grid(cols = vars(Comparison)) +
+  labs(
+    x = "Group",
+    y = "Coherence Between Electrodes",
+    colour = "Time",
+    title = "Alpha Coherence"
+  ) +
+  theme_bw()
+plot_coh
+```
+
+# Discussion
+Here, we attempted to combine paced-breathing MM with simultaneous alpha-tACS over the midline parietal cortex in a meditation and stimulation naïve group. While we did not observe a significant increase in alpha power, we nonetheless saw increased left frontoparietal alpha coherence power post-meditation. Our findings suggest successful modulation of underlying attentional networks involved in MM. 
+
+## Alpha Spectral Power
+Although our model suggests a significant interaction between stimulation group and electrode channel, post-hoc comparisons of estimated marginal means were did not indicate any significant group differences at any channel. This finding is unfortunate, though not necessarily indicative of unsuccessful alpha-tACS modulation. Indeed, where we expect noticeably greater alpha power over the midline parietal cortex following stimulation due to artificial upregulation during meditation, here, no such effect was observed. Prior studies have found similar results despite delivering alpha-tACS over similar regions (De Koninck et al., 2023); a lack of heightened alpha power post-stimulation has not always meant an absence of alpha-related effects over relevant networks. One interpretation is that the simultaneous transition away from stimulation and meditation to a resting-state may have lowered alpha power homeostatically. Alpha power may be high during meditation, but the change away from a more default mode network-like state (i.e., alpha-promoting state) to a resting-state may induce a rebound-like effect. This theory has been previously proposed in studies with similar results, though nonetheless, most findings report increased alpha post-stimulation (De Koninck et al., 2023). Another simple explanation may be that our study was simply not powered enough to detect minute changes in alpha activity considering the wide range of individual variability with baseline alpha power. Alternatively, our findings may be a result of baseline differences masking stimulation effects such as in the case of the midline parietal cortex where baseline alpha was observably lower in the real stimulation group. Interpretation of alpha power in this study is therefore muddy at best since whether our data reflects a true stimulation effect or a regression to the mean is currently indiscernible.   
+
+## Alpha Phase Coherence
+In comparison, our findings with alpha phase coherence are more congruent with prior literature. In a previous study of ours, we observed increased midline frontal to left parietal alpha coherence during a self-referential task with direct current stimulation (Bao & Frewen, 2025). In contrast, here, we observed significantly greater left frontal to midline parietal alpha coherence, but not right frontoparietal or bilateral frontal alpha coherence in those who received real versus sham stimulation. Our previous interpretation suggested that the increased coherence was due to a resting-state-induced component between the medial prefrontal cortex, precuneus, and inferior parietal lobule (Bao & Frewen, 2025; Bowman et al., 2017). While we can not entirely discount this theory due to a lack of spatial specificity with the Muse EEG, there are still other proposals to consider. Previous studies suggest left frontoparietal alpha coherence to be reflective of introspective and attentional processes evoked during MM (Marzetti et al., 2014; Palva & Palva, 2007). This would follow with literature suggesting alpha-tACS to selectively modulate endogenous alpha activity through alignment of a simultaneous alpha-abundant state such as MM (De Koninck et al., 2023; Ruhnau et al., 2016). Alpha-tACS may be strengthening left frontal and midline parietal hubs of default mode and attentional networks involved in MM by upregulating the primary source of alpha frequencies in these networks (i.e., the midline parietal cortex) during MM when these networks are at play. However, currently, we can not conclude whether alpha coherence can be linked to specific attentional or meditative processes. Future studies should attempt to replicate our findings with alpha coherence with greater resolution neuroimaging and investigate its relationship with subjective meditation experiences. 
+
+## Conclusion
+In our study, we attempted to augment the neurological effects of MM through concurrent alpha-tACS in a single session with stimulation and meditation naïve participants. Alpha spectral power did not increase post-stimulation, though left frontal to midline parietal alpha phase coherence was greater post real stimulation. Our findings suggest that alpha-tACS may strengthen recruitment of attentional networks activated during mindfulness practice. Interpretation of our findings is, however, primitive, and requires further study and replication. Use of alpha-tACS for clinical applications of MM in groups with meditation difficulties remains an optimistic possibility for improving meditative experiences. 
+
+# References
+::: {style="padding-left: 2em; text-indent: -2em;"}
+Alexander, M. L., Alagapan, S., Lugo, C. E., Mellin, J. M., Lustenberger, C., Rubinow, D. R., & Fröhlich, F. (2019). Double-blind, randomized pilot clinical trial targeting alpha oscillations with transcranial alternating current stimulation (tACS) for the treatment of major depressive disorder (MDD). Translational Psychiatry, 9(1), Articlehttps://doi.org/10.1038/s41398-019-0439-0
+:::
+::: {style="padding-left: 2em; text-indent: -2em;"}
+Antal, A., Alekseichuk, I., Bikson, M., Brockmöller, J., Brunoni, A. R., Chen, R., Cohen, L. G., Dowthwaite, G., Ellrich, J., Flöel, A., Fregni, F., George, M. S., Hamilton, R., Haueisen, J., Herrmann, C. S., Hummel, F. C., Lefaucheur, J. P., Liebetanz, D., Loo, C. K., …
+:::
+::: {style="padding-left: 2em; text-indent: -2em;"}
+Paulus, W. (2017). Low intensity transcranial electric stimulation: Safety, ethical, legal regulatory and application guidelines. Clinical Neurophysiology, 128(9), 1774–1809. https://doi.org/10.1016/j.clinph.2017.06.001
+:::
+::: {style="padding-left: 2em; text-indent: -2em;"}
+Bao, Z., & Frewen, P. (2022). Sense of self in mind and body: An eLORETA-EEG study. Neuroscience of Consciousness, 2022(1), niac017. https://doi.org/10.1093/nc/niac017 
+:::
+::: {style="padding-left: 2em; text-indent: -2em;"}
+Bao, Z., & Frewen, P. (2025). Alpha rhythm transcranial electrical stimulation to inferior parietal cortex increases alpha power and phase synchrony while attending to mind–body self- states. Neuroscience, 570, 173–184. https://doi.org/10.1016/j.neuroscience.2025.01.013
+:::
+::: {style="padding-left: 2em; text-indent: -2em;"}
+Başar, E., & Güntekin, B. (2012). A short review of alpha activity in cognitive processes and in cognitive impairment. International Journal of Psychophysiology, 86(1), 25–38. https://doi.org/10.1016/j.ijpsycho.2012.07.001
+:::
+::: {style="padding-left: 2em; text-indent: -2em;"}
+Bowman, A. D., Griffis, J. C., Visscher, K. M., Dobbins, A. C., Gawne, T. J., DiFrancesco, M. W., & Szaflarski, J. P. (2017). Relationship Between Alpha Rhythm and the Default Mode Network: An EEG-fMRI Study. Journal of Clinical Neurophysiology, 34(6), 527. https://doi.org/10.1097/WNP.0000000000000411
+:::
+::: {style="padding-left: 2em; text-indent: -2em;"}
+Boyd, J. E., Lanius, R. A., & McKinnon, M. C. (2018). Mindfulness-based treatments for posttraumatic stress disorder: A review of the treatment literature and neurobiological evidence. Journal of Psychiatry & Neuroscience, 43(1), 7–25. https://doi.org/10.1503/jpn.170021
+:::
+::: {style="padding-left: 2em; text-indent: -2em;"}
+De Koninck, B. P., Brazeau, D., Guay, S., Herrero Babiloni, A., & De Beaumont, L. (2023). Transcranial Alternating Current Stimulation to Modulate Alpha Activity: A Systematic Review. Neuromodulation. https://doi.org/10.1016/j.neurom.2022.12.007 
+:::
+::: {style="padding-left: 2em; text-indent: -2em;"}
+Delorme, A., & Makeig, S. (2004). EEGLAB: An open source toolbox for analysis of single-trial EEG dynamics including independent component analysis. Journal of Neuroscience Methods, 134(1), 9–21. https://doi.org/10.1016/j.jneumeth.2003.10.009
+:::
+::: {style="padding-left: 2em; text-indent: -2em;"}
+Do, H., Hoang, H., Nguyen, N., An, A., Chau, H., Khuu, Q., Tran, L., Le, T., Le, A., Nguyen, K., Vo, T., & Ha, H. (2023). Intermediate effects of mindfulness practice on the brain activity of college students: An EEG study. IBRO Neuroscience Reports, 14, 308–319. https://doi.org/10.1016/j.ibneur.2023.03.003 
+:::
+::: {style="padding-left: 2em; text-indent: -2em;"}
+Duda, A. T., Clarke, A. R., & Barry, R. J. (2024). Mindfulness meditation alters neural oscillations independently of arousal. International Journal of Psychophysiology, 205, 112439. https://doi.org/10.1016/j.ijpsycho.2024.112439 
+:::
+::: {style="padding-left: 2em; text-indent: -2em;"}
+Duda, A. T., Clarke, A. R., & Barry, R. J. (2025). Differential Effects of Mindfulness Meditation and Paced Breathing on Neural Oscillations and Arousal. Mindfulness, 16(9), 2683–2698. https://doi.org/10.1007/s12671-025-02660-2 
+:::
+::: {style="padding-left: 2em; text-indent: -2em;"}
+Dunn, B. R., Hartigan, J. A., & Mikulas, W. L. (1999). Concentration and mindfulness meditations: Unique forms of consciousness? Applied Psychophysiology and Biofeedback, 24(3), 147–165. https://doi.org/10.1023/a:1023498629385
+:::
+::: {style="padding-left: 2em; text-indent: -2em;"}
+Eberth, J., & Sedlmeier, P. (2012). The Effects of Mindfulness Meditation: A Meta-Analysis. Mindfulness, 3(3), 174–189. https://doi.org/10.1007/s12671-012-0101-x
+:::
+::: {style="padding-left: 2em; text-indent: -2em;"}
+Frewen, P., & Bao, Z. (2022). Meditation Breath Attention Scores. In O. N. Medvedev, C. U. Krägeloh, R. J. Siegert, & N. N. Singh (Eds.), Handbook of Assessment in Mindfulness Research (pp. 1–23). Springer International Publishing. https://doi.org/10.1007/978-3-030-77644-2_47-1 
+:::
+::: {style="padding-left: 2em; text-indent: -2em;"}
+Goldberg, S. B., Tucker, R. P., Greene, P. A., Davidson, R. J., Wampold, B. E., Kearney, D. J., & Simpson, T. L. (2018). Mindfulness-based interventions for psychiatric disorders: A systematic review and meta-analysis. Clinical Psychology Review, 59, 52–60. https://doi.org/10.1016/j.cpr.2017.10.011 
+:::
+::: {style="padding-left: 2em; text-indent: -2em;"}
+Helfrich, R. F., Schneider, T. R., Rach, S., Trautmann-Lengsfeld, S. A., Engel, A. K., & Herrmann, C. S. (2014). Entrainment of Brain Oscillations by Transcranial Alternating Current Stimulation. Current Biology, 24(3), 333–339. https://doi.org/10.1016/j.cub.2013.12.041 
+:::
+::: {style="padding-left: 2em; text-indent: -2em;"}
+Hinterberger, T., Schmidt, S., Kamei, T., & Walach, H. (2014). Decreased electrophysiological activity represents the conscious state of emptiness in meditation. Frontiers in Psychology, 5. https://www.frontiersin.org/articles/10.3389/fpsyg.2014.00099 
+:::
+::: {style="padding-left: 2em; text-indent: -2em;"}
+Katterman, S. N., Kleinman, B. M., Hood, M. M., Nackers, L. M., & Corsica, J. A. (2014). Mindfulness meditation as an intervention for binge eating, emotional eating, and weight loss: A systematic review. Eating Behaviors, 15(2), 197–204. https://doi.org/10.1016/j.eatbeh.2014.01.005 
+:::
+::: {style="padding-left: 2em; text-indent: -2em;"}
+Lomas, T., Ivtzan, I., & Fu, C. H. Y. (2015). A systematic review of the neurophysiology of mindfulness on EEG oscillations. Neuroscience & Biobehavioral Reviews, 57, 401–410. https://doi.org/10.1016/j.neubiorev.2015.09.018 
+:::
+::: {style="padding-left: 2em; text-indent: -2em;"}
+Marzetti, L., Di Lanzo, C., Zappasodi, F., Chella, F., Raffone, A., & Pizzella, V. (2014). Magnetoencephalographic alpha band connectivity reveals differential default mode network interactions during focused attention and open monitoring meditation. Frontiers in Human Neuroscience, 8. https://doi.org/10.3389/fnhum.2014.00832
+:::
+::: {style="padding-left: 2em; text-indent: -2em;"}
+Orendáčová, M., & Kvašňák, E. (2021). Effects of Transcranial Alternating Current Stimulation and Neurofeedback on Alpha (EEG) Dynamics: A Review. Frontiers in Human Neuroscience, 15. https://www.frontiersin.org/articles/10.3389/fnhum.2021.628229
+:::
+::: {style="padding-left: 2em; text-indent: -2em;"}
+Palva, S., & Palva, J. M. (2007). New vistas for α-frequency band oscillations. Trends in Neurosciences, 30(4), 150–158. https://doi.org/10.1016/j.tins.2007.02.001
+:::
+::: {style="padding-left: 2em; text-indent: -2em;"}
+Ruhnau, P., Neuling, T., Fuscá, M., Herrmann, C. S., Demarchi, G., & Weisz, N. (2016). Eyes wide shut: Transcranial alternating current stimulation drives alpha rhythm in a state dependent manner. Scientific Reports, 6(1), Article 1. https://doi.org/10.1038/srep27138 
+:::
+::: {style="padding-left: 2em; text-indent: -2em;"}
+Tang, Y.-Y., Hölzel, B. K., & Posner, M. I. (2015). The neuroscience of mindfulness meditation. Nature Reviews Neuroscience, 16(4), Article 4. https://doi.org/10.1038/nrn3916 
+:::
+::: {style="padding-left: 2em; text-indent: -2em;"}
+Vossen, A., Gross, J., & Thut, G. (2015). Alpha Power Increase After Transcranial Alternating Current Stimulation at Alpha Frequency (α-tACS) Reflects Plastic Changes Rather Than Entrainment. Brain Stimulation, 8(3), 499–508. https://doi.org/10.1016/j.brs.2014.12.004 
+:::
+::: {style="padding-left: 2em; text-indent: -2em;"}
+Wu, R., Liu, L.-L., Zhu, H., Su, W.-J., Cao, Z.-Y., Zhong, S.-Y., Liu, X.-H., & Jiang, C.-L. (2019). Brief Mindfulness Meditation Improves Emotion Processing. Frontiers in Neuroscience, 13. https://www.frontiersin.org/articles/10.3389/fnins.2019.01074
+:::
+::: {style="padding-left: 2em; text-indent: -2em;"}
+Yordanova, J., Kolev, V., Mauro, F., Nicolardi, V., Simione, L., Calabrese, L., Malinowski, P., & Raffone, A. (2020). Common and distinct lateralised patterns of neural coupling during focused attention, open monitoring and loving kindness meditation. Scientific Reports, 10(1), 7430. https://doi.org/10.1038/s41598-020-64324-6 
+:::
+::: {style="padding-left: 2em; text-indent: -2em;"}
+Zhu, J., Wekerle, C., Lanius, R., & Frewen, P. (2019). Trauma- and Stressor-Related History and Symptoms Predict Distress Experienced during a Brief Mindfulness Meditation Sitting: Moving toward Trauma-Informed Care in Mindfulness-Based Therapy. Mindfulness, 10(10), 1985–1996. https://doi.org/10.1007/s12671-019-01173-z 
+:::
